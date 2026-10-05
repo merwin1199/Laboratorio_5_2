@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500">
+  <rect width="1000" height="500" fill="#f8f9fa"/>
+
+  <rect x="180" y="90" width="640" height="300"
+        rx="25" fill="#212529"/>
+
+  <rect x="210" y="120" width="580" height="230"
+        rx="10" fill="#198754"/>
+
+  <circle cx="500" cy="235" r="70"
+          fill="#ffffff" opacity="0.9"/>
+
+  <text x="500" y="225"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="32"
+        font-weight="bold"
+        fill="#198754">
+    DISEÑO WEB
+  </text>
+
+  <text x="500" y="265"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="22"
+        fill="#212529">
+    HTML • CSS • BOOTSTRAP
+  </text>
+
+  <rect x="390" y="405" width="220" height="18"
+        rx="9" fill="#212529"/>
+
+  <rect x="330" y="423" width="340" height="20"
+        rx="10" fill="#6c757d"/>
+</svg>

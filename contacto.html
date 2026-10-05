@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- HTML5: configuración del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto - Laboratorio 5.2</title>
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--
+        Estructura HTML5:
+        HEADER: contiene la navegación.
+        NAV: permite desplazarse por el sitio.
+        MAIN: contiene el formulario.
+        SECTION: organiza el contenido.
+        FOOTER: contiene la información final.
+    -->
+
+    <!-- HEADER: encabezado -->
+    <header>
+
+        <!-- NAV: barra de navegación -->
+        <nav id="menuPrincipal" class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+            <div class="container">
+
+                <a class="navbar-brand fw-bold" href="index.html">
+                    Merwin Web
+                </a>
+
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarContenido"
+                        aria-controls="navbarContenido"
+                        aria-expanded="false"
+                        aria-label="Mostrar navegación">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarContenido">
+
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">
+                                Inicio
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">
+                                Servicios
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contacto.html">
+                                Contacto
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- MAIN: contenido principal -->
+    <main>
+
+        <!-- SECTION: formulario de contacto -->
+        <section class="container my-5">
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-8">
+
+                    <div class="info-box box-model p-4">
+
+                        <h1 class="text-center mb-4">
+                            Contacto
+                        </h1>
+
+                        <p class="text-center">
+                            Completa el siguiente formulario para
+                            solicitar información.
+                        </p>
+
+                        <form>
+
+                            <!-- Campo nombre -->
+                            <div class="mb-3">
+
+                                <label for="nombre"
+                                       class="form-label">
+                                    Nombre
+                                </label>
+
+                                <input type="text"
+                                       class="form-control"
+                                       id="nombre"
+                                       name="nombre"
+                                       placeholder="Escribe tu nombre"
+                                       required>
+
+                            </div>
+
+                            <!-- Campo correo -->
+                            <div class="mb-3">
+
+                                <label for="correo"
+                                       class="form-label">
+                                    Correo electrónico
+                                </label>
+
+                                <input type="email"
+                                       class="form-control"
+                                       id="correo"
+                                       name="correo"
+                                       placeholder="ejemplo@correo.com"
+                                       required>
+
+                            </div>
+
+                            <!-- Campo asunto -->
+                            <div class="mb-3">
+
+                                <label for="asunto"
+                                       class="form-label">
+                                    Asunto
+                                </label>
+
+                                <input type="text"
+                                       class="form-control"
+                                       id="asunto"
+                                       name="asunto"
+                                       placeholder="Escribe el asunto"
+                                       required>
+
+                            </div>
+
+                            <!-- Campo mensaje -->
+                            <div class="mb-3">
+
+                                <label for="mensaje"
+                                       class="form-label">
+                                    Mensaje
+                                </label>
+
+                                <textarea class="form-control"
+                                          id="mensaje"
+                                          name="mensaje"
+                                          rows="5"
+                                          placeholder="Escribe tu mensaje"
+                                          required></textarea>
+
+                            </div>
+
+                            <div class="text-center">
+
+                                <button type="submit"
+                                        class="btn btn-success btn-lg">
+                                    Enviar mensaje
+                                </button>
+
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER: pie de página -->
+    <footer class="bg-dark text-white text-center py-4">
+
+        <p class="mb-1">
+            Laboratorio 5.2
+        </p>
+
+        <p class="mb-0">
+            Merwin Arciniegas Remolina
+        </p>
+
+    </footer>
+
+    <!-- JavaScript de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+/* =====================================================
+   LABORATORIO 5.2 - ESTILOS CSS
+   Autor: Merwin Arciniegas Remolina
+   ===================================================== */
+
+/* Selector de elemento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f8;
+}
+
+/* Selector de clase */
+.hero {
+    background: linear-gradient(135deg, #198754, #212529);
+    color: white;
+    padding: 90px 20px;
+}
+
+/* Selector de elemento */
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* Selector de elemento */
+h2 {
+    color: #212529;
+    font-weight: bold;
+}
+
+/* Selector de clase */
+.info-box {
+    background-color: white;
+    border: 2px solid #198754;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 10px;
+}
+
+/* Selector de clase */
+.card {
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+/* Selector de clase + pseudoselector */
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Selector de ID */
+#menuPrincipal {
+    padding: 5px;
+}
+
+/* Selector de elemento */
+footer {
+    margin-top: 40px;
+}
+
+/* Modelo de caja */
+.box-model {
+    background-color: #ffffff;
+    border: 3px solid #198754;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+
+    .hero {
+        padding: 65px 15px;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    .info-box {
+        margin-top: 20px;
+    }
+
+}
