@@ -73,8 +73,12 @@ https://github.com/merwin1199/Laboratorio_5_2
 
 VIDEO
 
-El video de demostración del Laboratorio 5.2 será incluido en
-la carpeta final de entrega.
+Video de demostración incluido en el proyecto:
+video_laboratorio_5_2_merwin.mp4
+
+El video presenta la estructura HTML5, los estilos CSS, los
+componentes de Bootstrap, el diseño responsivo y el repositorio
+del proyecto en GitHub.
 
 
 AUTOR
